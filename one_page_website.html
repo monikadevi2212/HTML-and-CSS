@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My One Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My One Page Website</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact ">Contact </a>
+   
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>This is a brief introduction to my one-page website. Explore the sections to find more information!</p>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <img src="image1.jpg" alt="Image 1" width="300">
+    <img src="image2.jpg" alt="Image 2" width="300">
+    <img src="image3.jpg" alt="Image 3" width="300">
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+
+
+<footer>
+    <p>&copy;  My One Page Website</p>
+</footer>
+
+</body>
+</html>
